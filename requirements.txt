@@ -1,0 +1,6 @@
+streamlit
+streamlit-free-text-select
+yfinance
+pandas
+prophet
+plotly
