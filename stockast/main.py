@@ -13,7 +13,12 @@ START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
 def main():
-    st.title('Stock Forecast App')
+    st.title("📈 Stockast")
+    st.markdown(
+        """ 
+        *Analyze historical data and forecast future trends with ease.*
+        """
+    )
 
     stocks = ['AAPL', 'GOOGL', 'MSFT', 'AMZN', 'META', 'TSLA', 'NVDA']
 
